@@ -1,0 +1,17 @@
+Dear {professor_name},
+
+I am writing to express my interest in pursuing a master's thesis under your supervision. I completed my B.Tech in Electrical Engineering from the Indian Institute of Technology Gandhinagar (IIT GN) and have been admitted to Purdue's ECE program (Project Track) for Spring 2025. To transition to the thesis track, I must identify a thesis supervisor and register for thesis research by January 24, 2025.
+
+My academic background in digital design and computer architecture includes A-level grades in core Electrical Engineering subjects. At IIT Gandhinagar, I developed a Verilog-based Posit arithmetic unit with adder and multiplier modules, showcasing Posit's precision and efficiency over floating-point systems. I also created Python tools for Posit-to-decimal conversion, gaining hardware-software co-design experience. Additionally, as a Research Assistant at IIIT Hyderabad, I published a machine learning paper on online support dynamics during COVID-19 at ASONAM.
+
+I am particularly drawn to your research on {research}, as it aligns with my interests in advancing the field. Furthermore, your focus on {aoi} resonates deeply with my aspirations and goals. For your reference, I have attached my transcript, resume, and two letters of recommendation that provide more insight into my academic performance and research experience.
+
+Thank you for considering my request. I look forward to your response.
+
+Regards,
+Aryamann Tomar  
+B.Tech EE, IIT Gandhinagar  
+
+PUID: 0038360424
+Purdue eMail: tomar7@purdue.edu   
+Admitted Program: MSECE, Purdue University  

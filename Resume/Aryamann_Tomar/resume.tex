@@ -1,0 +1,157 @@
+%-------------------------
+% Resume in Latex
+% Author : Audric Serador
+% Inspired by: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage{newtxtext,newtxmath} % Times New Roman font
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\fontsize{16}{20}\selectfont\fontfamily{ptm}\selectfont\mdseries
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------%
+% Custom commands
+\begin{document}
+\include{custom-commands}
+
+%-------------------------------------------%
+%%%%%%  RESUME STARTS HERE  %%%%%
+
+% Define custom marine blue color
+\definecolor{MarineBlue}{RGB}{15,40,130}
+\definecolor{StrongerBlue}{RGB}{0,102,204} % New stronger blue color
+
+%----------HEADING----------%
+\begin{center}
+  {\color{MarineBlue}\fontfamily{ppl}\fontsize{36}{40}\selectfont\scshape\mdseries Tejal Poonia} \\ \vspace{5pt}
+  \seticon{faPhone} \ \small +91-8955252787 \,
+  $|$ \, \href{mailto:tejalpoonia2001@gmail.com}{\color{StrongerBlue}\seticon{faEnvelope} \underline{tejalpoonia2001@gmail.com}} \,
+  $|$ \, \href{https://www.linkedin.com/in/tejal-poonia-03357b218/}{\color{StrongerBlue}\seticon{faLinkedin} \underline{linkedin.com/TejalPoonia}} \,
+  $|$ \, \href{https://github.com/Tejal-poonia}{\color{StrongerBlue}\seticon{faGithub} \underline{github.com/Tejal-poonia}}
+\end{center}
+
+%-----------EDUCATION-----------%
+\section{Education}
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Institute of Technology (NIT), Hamirpur}{2019 -- 2023}
+      {Bachelor of Technology in Mechanical Engineering}{\textbf{CGPI: 8.54/10}}
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------%
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Goods and Services Tax Network}{July 2023 -- Present}
+    {Software Engineer}{Delhi}
+    \resumeItemListStart
+        \resumeItem{Developed a fusion filter in C++ for optimizing and consolidating data sets, improving data efficiency by 40\%.}
+        \resumeItem{Architected and developed a logging server using C++ and OOP principles, utilizing RADS and shared memory for communication between the server and various client applications.}
+        \resumeItem{Designed a flexible JSON message format using rapidJSON for dynamic messages from different applications. Developed parsers and routing logic to interpret and relay messages based on content and metadata.}
+    \resumeItemListEnd
+ 
+    \resumeSubheading
+    {Maruti Suzuki Pvt. Ltd.}{June 2022 -- July 2022}
+    {Automobile Industrial Trainee}{Jaipur}
+    \resumeItemListStart
+        \resumeItem{Performed comprehensive analysis of wheels and tires on various vehicles}
+        \resumeItem{Conducted essential tire services including changes, rotations, and wheel alignments}
+        \resumeItem{Executed precise tire and wheel assembly balancing to optimize vehicle performance}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------%
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+    {\textbf{Dynamic Routing and Mapping} $|$ \emph{C++, Data Structure and Algorithms}}{}
+    \resumeItemListStart
+        \resumeItem{Implemented Dijkstra’s and A* algorithms to dynamically calculate the fastest routes, improving navigation efficiency by 30.}
+        \resumeItem{Integrated GNSS for real-time vehicle tracking with 80\% accuracy, ensuring precise and reliable location data.}
+        \resumeItem{Developed a system for real-time guidance by dynamically computing distances to upcoming turns, enhancing travel optimization.}
+    \resumeItemListEnd
+    
+    \resumeProjectHeading
+    {\textbf{Path Find Visualizer} $|$ \emph{C++, Data Structure and Algorithms, OOPS}}    {}
+    \resumeItemListStart
+        \resumeItem{Developed a web application for pathfinding in 2D mazes using Dijkstra's, BFS, and DFS algorithms.}
+        \resumeItem{Implemented user-interactive features including customizable start/end points and grid generation.}
+        \resumeItem{Designed advanced functionality such as weighted nodes, obstacle placement, and pathfinding animations.}
+    \resumeItemListEnd
+    
+    % \resumeProjectHeading
+    % {\textbf{NetflixGpt \href{https://netflixgpt-60854.web.app/}{\ \faLink}} $|$ \emph{React, Redux, Firebase}}{}
+    % \resumeItemListStart
+    %     \resumeItem{Designed and implemented a robust movie search functionality using OpenAI APIs, resulting in a user experience similar to Netflix.}
+    %     \resumeItem{Utilized OpenAI APIs to enable ChatGPT-powered search queries, successfully retrieving over 5,000 movies from the TMDB Movie Database.}
+    %     \resumeItem{Integrated Google Firebase for SignIn/SignUp, securing and managing authentication for over 1,000 users.}
+    % \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------%
+\section{Technical Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Languages}{: C, C++, Python, HTML, CSS} \\
+		\textbf{Technologies}{: Django, SQL, AWS} \\
+		\textbf{Concepts}{: OOPS, DSA, System Design, DBMS, API}
+	}}
+    \end{itemize}
+
+%-----------ACHIEVEMENTS & EXTRACURRICULAR-----------%
+\section{Achievements \& Extracurricular Activities}
+\resumeItemListStartTight
+    \resumeItem{Achieved 8th Kyu (Yellow Belt) in Seiko Kai Karate International India.}
+    \resumeItem{Holder of B and C Certificates in National Cadet Corps (NCC).}
+    \resumeItem{Received Certificate of Appreciation for dedicated membership in Ek Bharat Shreshtha Bharat Club, NITH (2020-2021).}
+    \resumeItem{Awarded Gargi Pursakar (Gargi Award) for excellent performance in High School (2016).}
+    \resumeItem{NCC (National Cadet Corps) - April 2019 to 2022: Served as Cadet in Army NITH, participated in training camps and activities.}
+    \resumeItem{Active participant in Martial Arts Karate Academy events at NITH (2019-Present).}
+\resumeItemListEnd
+
+%-------------------------------------------%
+\end{document}
